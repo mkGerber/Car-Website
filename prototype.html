@@ -3,37 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Website</title>
+    <title>Autoshow</title>
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/feed.css">
 </head>
 <body>
-    <div class="screen"></div>
-        <nav class="navigation-bar">
-            <div class="title">
-                <h1>AUTOSHOW</h1>
-            </div>
-            <div class="logo-button home">
-                <img class='logo-image' src="images/logos/home.png" alt="Home">
-                <p class="logo-name">Home</p>
-            </div>
-            <div class="logo-button search">
-                <img class='logo-image' src="images/logos/search.png" alt="search">
-                <p class="logo-name">Search</p>
-            </div>
-            <div class="logo-button carshow">
-                <img class='logo-image' src="images/logos/carshow.png" alt="carshow">
-                <p class="logo-name">Carshow</p>
-            </div>
-            <div class="logo-button groups">
-                <img class='logo-image' src="images/logos/groups.png" alt="groups">
-                <p class="logo-name">Groups</p>
-            </div>
+    <nav class="navigation-bar">
+        <div class="title">
+            <h1>AUTOSHOW</h1>
+        </div>
+        <div class="logo-button home">
+            <img class='logo-image' src="images/logos/home.png" alt="Home">
+            <p class="logo-name">Home</p>
+        </div>
+        <div class="logo-button search">
+            <img class='logo-image' src="images/logos/search.png" alt="search">
+            <p class="logo-name">Search</p>
+        </div>
+        <div class="logo-button carshow">
+            <img class='logo-image' src="images/logos/carshow.png" alt="carshow">
+            <p class="logo-name">Carshow</p>
+        </div>
+        <div class="logo-button groups">
+            <img class='logo-image' src="images/logos/groups.png" alt="groups">
+            <p class="logo-name">Groups</p>
+        </div>
+        <div class="logo-button groups">
+            <img class='logo-image' src="images/logos/notifications.png" alt="groups">
+            <p class="logo-name">Notifications</p>
+        </div>
 
-            <div class="button-container">
-                <button class="create-button">Create</button>
+        <div class="button-container">
+            <button class="create-button">Create</button>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="for-you-feed">For you</div>
+        <div class="friends-feed">Friends</div>
+    </header>
+    <div class="feed-container">
+        <div class="post-container">
+            <div class="image-container">
+                <img class="post-image" src="images/prototypePosts/post1.jpg">
             </div>
-        </nav>
+            <div class="post-information-container">
+                <div class="username">
+                    <p class="username-text">chase_brewer</p>
+                </div>
+                <div class="post-interaction-container">
+                    <img class="post-interaction-image" src="images/logos/like.png">
+                    <img class="post-interaction-image" src="images/logos/comment.png">
+                    <img class="post-interaction-image" src="images/logos/share.png">
+                </div>
+            </div>
+            <div class="post-description">
+                <p class="post-description-text">"Check out this sick Toyota Supra MK3! 🚗💨 Absolute beast from the '90s, guys! This whip's got that retro vibe with mad style. Look at those sleek curves and turbocharged power! 🏁🔥 It's all about that classic coolness and killer performance. 🌟📸 #ToyotaSupraMK3 #OldSchoolCool #CarGoals #TurboLife #VroomVroom"</p>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="image-container">
+                <img class="post-image" src="images/prototypePosts/post2.jpg">
+            </div>
+            <div class="post-information-container">
+                <div class="username">
+                    <p class="username-text">zilla_50</p>
+                </div>
+                <div class="post-interaction-container">
+                    <img class="post-interaction-image" src="images/logos/like.png">
+                    <img class="post-interaction-image" src="images/logos/comment.png">
+                    <img class="post-interaction-image" src="images/logos/share.png">
+                </div>
+            </div>
+            <div class="post-description">
+                <p class="post-description-text">Revving up with this badass Mustang Foxbody! 🐎💨 Talk about classic vibes with a dose of '80s coolness. Check out that muscular body and those roaring exhaust notes! 😎🏁 This ride's all about the retro power and timeless style. Can't help but feel the old-school magic with every spin of the wheels! 🌟📸 #MustangFoxbody #80sVibes #MuscleCarMadness #BornToBeWild #CarEnthusiast</p>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="image-container">
+                <img class="post-image" src="images/prototypePosts/post3.jpg">
+            </div>
+            <div class="post-information-container">
+                <div class="username">
+                    <p class="username-text">m_gerber</p>
+                </div>
+                <div class="post-interaction-container">
+                    <img class="post-interaction-image" src="images/logos/like.png">
+                    <img class="post-interaction-image" src="images/logos/comment.png">
+                    <img class="post-interaction-image" src="images/logos/share.png">
+                </div>
+            </div>
+            <div class="post-description">
+                <p class="post-description-text">Rollin' in with the Kia Sportage! 🚗💫 Sleek, stylish, and ready for adventure! Check out this compact beast - perfect for cruisin' the city streets or hitting the open road. 🏙️🛣️ With its slick design and smooth ride, it's all about that modern vibe and versatile performance. Time to turn heads and embrace the thrill of the drive! 🌟📸 #KiaSportage #CompactCool #CityCruiser #AdventureTime #CarLife</p>
+            </div>
+        </div>
+        
+    </div>
+    
 </body>
 </html>
