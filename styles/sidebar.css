@@ -81,8 +81,10 @@
     .create-button{
         padding: 15px 40px;
         font-size: 15px;
-    
     }
+    .create-button:hover{
+        padding: 15px 60px;
+        font-size: 20px;
 }
 @media (max-width: 990px){
     .title h1{
@@ -92,11 +94,19 @@
         padding: 15px 20px;
         font-size: 15px;
     }
+    .create-button:hover{
+        padding: 15px 40px;
+        font-size: 20px;
+    }
 }
 @media (max-width: 800px){
     .logo-image{
         height: 35px;
         width: 35px;
+    }
+    .create-button:hover{
+        padding: 15px 30px;
+        font-size: 20px;
     }
 
 }
@@ -126,6 +136,14 @@
     .navigation-bar{
         width: 10%;
     }
+    .create-button{
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+    .create-button:hover{
+        padding: 10px 5px;
+        font-size: 10px;
+    }
 }
 
 @media (max-height: 700px){
@@ -137,4 +155,32 @@
     .logo-button{
         margin: 0 30px 8px 30px;
     }
+    
+}
+@media (max-height: 520px){
+    .logo-button{
+        margin: 0 30px 0px 30px;
+    }
+    
+}
+
+@media ((max-height: 700px) and (max-width: 500px)){
+    .logo-button{
+        margin: 0 0px 0px 0px;
+    }
+    
+}
+
+@media ((max-height: 600px) and (max-width: 500px)){
+    .logo-button{
+        margin: 0 0px 0px 0px;
+    }
+    
+}
+
+@media ((max-height: 520px) and (max-width: 500px)){
+    .logo-button{
+        margin: 0 0px 0px 0px;
+    }
+    
 }
