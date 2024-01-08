@@ -85,6 +85,7 @@
     .create-button:hover{
         padding: 15px 60px;
         font-size: 20px;
+    }
 }
 @media (max-width: 990px){
     .title h1{
@@ -182,5 +183,5 @@
     .logo-button{
         margin: 0 0px 0px 0px;
     }
-    
+
 }
