@@ -69,23 +69,50 @@
     .add-friend-description{
         font-size: 10px;
     }
-}
-@media (max-width: 990px){
+    .add-friends{
+        width: 25%;
+    }
     .add-friend-name{
         font-size: 15px;
     }
-    .add-friend-description{
+}
+@media (max-width: 990px){
+    .add-friend-name{
         display: none;
     }
-}
-@media (max-width: 800px){
-    .add-friend-name{
+    .add-friend-description{
         display: none;
     }
     .add-friend-profile{
         background-color: transparent;
     }
+    .add-friend-profile:hover{
+        background-color: transparent;
+        box-shadow: none;
+    }
     .add-friend-image{
         border-radius: 50%;
+    }
+    .add-friends{
+        width: 15%;
+    }
+    .add-friends-title{
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+}
+@media (max-width: 800px){
+    .add-friends{
+        width: 10%;
+    }
+    .add-friends-title{
+        font-size: 15px;
+    }
+    .add-friend-image{
+        height: 60px;
+        width: 60px;
+    }
+    .add-friend-profile{
+        margin-bottom: 0px;
     }
 }

@@ -60,20 +60,58 @@
     margin-left: 10px;
 }
 @media (max-width: 1170px){
+    .feed-container{
+        width: 55%;
+    }
     .image-container{
-        height: 400px;
+        height: 475px;
     }
     .post-image{
-        max-height: 400px;
+        max-height: 475px;
     }
     .post-container{
-        height: 600px;
+        height: 700px;
     }
     .post-description{
         font-size: 15px;
     }
 }
 @media (max-width: 990px){
+    .feed-container{
+        width: 65%;
+    }
+    .image-container{
+        height: 420px;
+    }
+    .post-image{
+        max-height: 420px;
+    }
+    .post-container{
+        height: 600px;
+    }
+    .post-description{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width: 800px){
+    .feed-container{
+        width: 70%;
+    }
+    .image-container{
+        height: 420px;
+    }
+    .post-image{
+        max-height: 420px;
+    }
+    .post-container{
+        height: 600px;
+    }
+    .post-description{
+        font-size: 11px;
+    }
+}
+@media (max-width: 575px){
     .image-container{
         height: 300px;
     }
@@ -82,35 +120,6 @@
     }
     .post-container{
         height: 500px;
-    }
-    .post-description{
-        font-size: 13px;
-    }
-    
-}
-@media (max-width: 800px){
-    .image-container{
-        height: 200px;
-    }
-    .post-image{
-        max-height: 200px;
-    }
-    .post-container{
-        height: 400px;
-    }
-    .post-description{
-        font-size: 11px;
-    }
-}
-@media (max-width: 575px){
-    .image-container{
-        height: 100px;
-    }
-    .post-image{
-        max-height: 100px;
-    }
-    .post-container{
-        height: 300px;
     }
     .post-description{
         font-size: 9px;
