@@ -134,5 +134,8 @@
         width: 90%;
         margin-left: 10%;
     }
+    .post-container{
+        height: 1000px;
+    }
 }
 
