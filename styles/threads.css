@@ -1,0 +1,51 @@
+.threads-feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    width: 50%;
+    margin-top: 50px;
+}
+.thread-container{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.thread-image{
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+}
+.thread-information{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 100%;
+}
+.title-and-description{
+    height: 90%;
+    width: 97%;
+}
+.thread-title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.thread-description{
+    font-size: 18px;
+}
+.thread-stats{
+    display: flex;
+    margin-right: 20px;
+}
+.thread-views{
+    flex: 1;
+}
+.thread-replies{
+    flex: 3;
+}
+
+
+
