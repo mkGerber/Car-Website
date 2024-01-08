@@ -116,3 +116,20 @@
         margin-bottom: 0px;
     }
 }
+@media (max-width: 715px){
+    .add-friends{
+        width: 0%;
+    }
+    .add-friends-title{
+        display: none;
+    }
+    .add-friend-image{
+        height: 60px;
+        width: 60px;
+        display: none;
+    }
+    .add-friend-profile{
+        margin-bottom: 0px;
+        
+    }
+}
