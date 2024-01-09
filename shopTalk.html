@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thread</title>
-    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/feed.css">
     <link rel="stylesheet" href="styles/addFriends.css">
-    <link rel="stylesheet" href="styles/threads.css">
+    <link rel="stylesheet" href="styles/shopTalk.css">
+    <link rel="stylesheet" href="styles/shopTalkHeader.css">
 </head>
 <body>
     <nav class="navigation-bar">
@@ -37,10 +37,10 @@
             <p class="logo-name">Groups</p>
         </div>
         <div class="logo-button groups" onclick="
-        window.location.href='threadHome.html';
+        window.location.href='shopTalk.html';
         ">
-            <img class='logo-image' src="images/logos/thread.png" alt="thread">
-            <p class="logo-name">Thread</p>
+            <img class='logo-image' src="images/logos/thread.png" alt="Shop Talk">
+            <p class="logo-name">Shop Talk</p>
         </div>
         <div class="logo-button groups">
             <img class='logo-image' src="images/logos/notifications.png" alt="notifications">
@@ -51,9 +51,16 @@
             <button class="create-button">Create</button>
         </div>
     </nav>
+    <header class="header">
+        <div class="header-title">Shop Talk</div>
+        <input class="shop-talk-search" placeholder="search">     
+        <div class="profile">
+            <img class="profile-image" src="images/profiles/m_gerber.jpg">
+        </div>
+    </header>
     <div class="threads-feed">
         <div class="thread-container">
-            <img class="thread-image" src="images/threads/threads1.jpg">
+            <img class="thread-image" src="images/threads/ShopTalk1.jpg">
             <div class="thread-information">
                 <div class="title-and-description">
                     <div class="thread-title">Why is my oil leaking so bad?</div>
@@ -62,23 +69,48 @@
                 <div class="thread-stats">
                     <div class="thread-views">Views: 1,121</div>
                     <div class="thread-replies">Replies: 2</div>
-                    <div class="thread-author">m_gerber</div>
+                    <div class="thread-author">
+                        <img class="thread-author-image" src="images/profiles/m_gerber.jpg">
+                        m_gerber
+                    </div>
                 </div>
                 
             </div>
             
         </div>
         <div class="thread-container">
-            <img class="thread-image" src="images/threads/threads2.jpg">
+            <img class="thread-image" src="images/threads/ShopTalk2.jpg">
             <div class="thread-information">
                 <div class="title-and-description">
-                    <div class="thread-title">My Fucking car blew up!!!</div>
+                    <div class="thread-title">My Car blew up!!!</div>
                     <div class="thread-description">Can't believe this just happened! Driving my trusty old Honda Accord and suddenly heard this loud bang. Smoke everywhere, and my engine's toast! What in the world could have caused this?</div>
                 </div>
                 <div class="thread-stats">
                     <div class="thread-views">Views: 2,147</div>
                     <div class="thread-replies">Replies: 3</div>
-                    <div class="thread-author">zilla_50</div>
+                    <div class="thread-author">
+                        <img class="thread-author-image" src="images/profiles/zilla_50.jpg">
+                        zilla_50
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="thread-container">
+            <img class="thread-image" src="images/threads/ShopTalk3.jpg">
+            <div class="thread-information">
+                <div class="title-and-description">
+                    <div class="thread-title">What's the best car for a road trip?</div>
+                    <div class="thread-description"> Planning a cross-country road trip with friends and looking for recommendations on the best car for the adventure. What features should I prioritize? Any personal favorites for long journeys?</div>
+                </div>
+                <div class="thread-stats">
+                    <div class="thread-views">Views: 427</div>
+                    <div class="thread-replies">Replies: 1</div>
+                    <div class="thread-author">
+                        <img class="thread-author-image" src="images/profiles/chase_brewer.jpg">
+                        chase_brewer
+                    </div>
                 </div>
                 
             </div>

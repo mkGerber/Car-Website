@@ -37,6 +37,10 @@
     background-color: rgba(205, 206, 255, 0.5);
     
 }
+.logo-button:active{
+    background-color: rgba(205, 206, 255, 1);
+
+}
 .logo-image{
     width: 50px;
     height: 50px;
