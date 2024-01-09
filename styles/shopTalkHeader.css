@@ -10,7 +10,7 @@
     border-bottom: solid 1px rgb(99, 99, 99);
 }
 .shop-talk-search{
-    flex: 3;
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     padding: 5px 10px;
     border-radius: 10px;
     border: solid 1px rgb(59, 121, 255);
-    margin-right: 40%;
+    margin-right: 10%;
 }
 .shop-talk-search:focus{
     outline: solid 1px rgb(59, 121, 255);
@@ -49,6 +49,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex: 1.75;
+    flex: 1;
     margin-right: 10px;
 }
