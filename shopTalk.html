@@ -6,10 +6,8 @@
     <title>Thread</title>
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/feed.css">
-    <link rel="stylesheet" href="styles/addFriends.css">
-    <link rel="stylesheet" href="styles/shopTalk.css">
-    <link rel="stylesheet" href="styles/shopTalkHeader.css">
+    <link rel="stylesheet" href="styles/shopTalk/shopTalk.css">
+    <link rel="stylesheet" href="styles/shopTalk/shopTalkHeader.css">
 </head>
 <body>
     <nav class="navigation-bar">
@@ -32,12 +30,14 @@
             <img class='logo-image' src="images/logos/carshow.png" alt="carshow">
             <p class="logo-name">Carshow</p>
         </div>
-        <div class="logo-button groups">
+        <div class="logo-button groups" onclick="
+            window.location.href='groups.html';
+        ">
             <img class='logo-image' src="images/logos/groups.png" alt="groups">
             <p class="logo-name">Groups</p>
         </div>
         <div class="logo-button groups" onclick="
-        window.location.href='shopTalk.html';
+            window.location.href='shopTalk.html';
         ">
             <img class='logo-image' src="images/logos/thread.png" alt="Shop Talk">
             <p class="logo-name">Shop Talk</p>
