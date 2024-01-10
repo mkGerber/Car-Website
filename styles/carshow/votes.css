@@ -1,0 +1,135 @@
+.add-friends{
+    position: fixed;
+    top: 51px;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-friends-title{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(59, 121, 255);
+    padding: 0 40px 0 40px;
+    border-bottom: solid 1px rgb(59, 121, 255);
+    margin-bottom: 40px;
+}
+.add-friend-profile{
+    display: flex;
+    width: 70%;
+    height: 100px;
+    background-color: rgb(59, 121, 255);
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.add-friend-profile:hover{
+    background-color: rgb(0, 81, 255);
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.add-friend-image{
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    object-fit: cover;
+    margin-top: 4px;
+}
+.add-friend-about{
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.add-friend-name{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+}
+.add-friend-description{
+    margin-top: 5px;    
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: white;
+}
+
+@media (max-width: 1170px){
+    .add-friend-description{
+        font-size: 10px;
+    }
+    .add-friends{
+        width: 25%;
+    }
+    .add-friend-name{
+        font-size: 15px;
+    }
+}
+@media (max-width: 990px){
+    .add-friend-name{
+        display: none;
+    }
+    .add-friend-description{
+        display: none;
+    }
+    .add-friend-profile{
+        background-color: transparent;
+    }
+    .add-friend-profile:hover{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .add-friend-image{
+        border-radius: 50%;
+    }
+    .add-friends{
+        width: 15%;
+    }
+    .add-friends-title{
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+}
+@media (max-width: 800px){
+    .add-friends{
+        width: 10%;
+    }
+    .add-friends-title{
+        font-size: 15px;
+    }
+    .add-friend-image{
+        height: 60px;
+        width: 60px;
+    }
+    .add-friend-profile{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 715px){
+    .add-friends{
+        width: 0%;
+    }
+    .add-friends-title{
+        display: none;
+    }
+    .add-friend-image{
+        height: 60px;
+        width: 60px;
+        display: none;
+    }
+    .add-friend-profile{
+        margin-bottom: 0px;
+        
+    }
+}
