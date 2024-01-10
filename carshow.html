@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Show</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/carshow/carshow.css">
+    <link rel="stylesheet" href="styles/carshow/carshowHeader.css">
+</head>
+<body>
+    <nav class="navigation-bar">
+        <div class="title">
+            <h1 onclick="
+                window.location.href='index.html'
+                " class="auto-show-big">AUTOSHOW</h1>
+            <div class="auto-show-small">
+                <p class="auto-show-small-text">AUTO</p>
+                <p class="auto-show-small-text">SHOW</p>
+            </div>
+        </div>
+        <div class="logo-button home" onclick="
+            window.location.href='index.html';
+        ">
+            <img class='logo-image' src="images/logos/home.png" alt="Home">
+            <p class="logo-name">Home</p>
+        </div>
+        <div class="logo-button search">
+            <img class='logo-image' src="images/logos/search.png" alt="search">
+            <p class="logo-name">Search</p>
+        </div>
+        <div class="logo-button carshow" onclick="
+            window.location.href='carshow.html';
+        ">
+            <img class='logo-image' src="images/logos/carshow.png" alt="carshow">
+            <p class="logo-name">Carshow</p>
+        </div>
+        <div class="logo-button groups" onclick="
+            window.location.href='groups.html';
+        ">
+            <img class='logo-image' src="images/logos/groups.png" alt="groups">
+            <p class="logo-name">Groups</p>
+        </div>
+        <div class="logo-button groups" onclick="
+            window.location.href='shopTalk.html';
+        ">
+            <img class='logo-image' src="images/logos/thread.png" alt="Shop Talk">
+            <p class="logo-name">Shop Talk</p>
+        </div>
+        <div class="logo-button groups">
+            <img class='logo-image' src="images/logos/notifications.png" alt="notifications">
+            <p class="logo-name">Notifications</p>
+        </div>
+
+        <div class="button-container">
+            <button class="create-button">Create</button>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-title">Car Show</div>
+        <div class="profile">
+            <img class="profile-image" src="images/profiles/m_gerber.jpg">
+        </div>
+    </header>
+    <div class="car-show-container">
+        <div class="car-show-profile-container">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="images/carShow/chase_brewer1.jpg">
+                    <img id="slide-2" src="images/carShow/chase_brewer2.jpg">
+                    <img id="slide-3" src="images/carShow/chase_brewer4.jpg">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+            <div class="car-show-information-container">
+                <p class="car-show-name">Chase Brewer</p>
+                <p class="car-show-car">Toyota Supra</p>
+                <p class="car-show-description">Check out my Toyota Supra MK3, a real gem from '86! Under the hood, it’s rocking a 3.0L inline-six that’s been tweaked for a bit more oomph. Paired with a manual transmission, this baby loves to hit the corners with its custom suspension. From the slick pop-up headlights to its turbocharged growl, it’s more than just a car – it’s my thrill ride on wheels!</p>
+                <div class="car-show-buttons">
+                    <img class="car-show-button" src="images/logos/skip.png">
+                    <img class="car-show-button" src="images/logos/check.png">
+                </div>
+            </div>
+        </div>
+          
+    </div>
+
+    <script src="scripts/carShow.js"></script>
+</body>
+</html>
