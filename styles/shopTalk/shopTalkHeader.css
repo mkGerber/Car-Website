@@ -52,3 +52,10 @@
     flex: 1;
     margin-right: 10px;
 }
+
+@media (max-width: 500px){
+    .header{
+        left: 10%;
+    }
+    
+}

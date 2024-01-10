@@ -69,6 +69,22 @@
     margin-right: 10px;
 }
 
-
-
+@media (max-width: 500px){
+    .threads-feed{
+        margin-left: 10%;
+        width: 90%;
+    }
+    .thread-container{
+        height: 800px;
+        flex-direction: column;
+    }
+    .thread-image{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
 
