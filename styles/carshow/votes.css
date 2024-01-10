@@ -1,4 +1,4 @@
-.add-friends{
+.votes{
     position: fixed;
     top: 51px;
     right: 0;
@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
 }
-.add-friends-title{
+.votes-title{
     font-size: 30px;
     margin-top: 10px;
     font-weight: bold;
@@ -18,7 +18,7 @@
     border-bottom: solid 1px rgb(59, 121, 255);
     margin-bottom: 40px;
 }
-.add-friend-profile{
+.vote-profile{
     display: flex;
     width: 70%;
     height: 100px;
@@ -29,12 +29,12 @@
     margin-bottom: 30px;
     transition: background-color 0.5s, box-shadow 0.5s;
 }
-.add-friend-profile:hover{
+.vote-profile:hover{
     background-color: rgb(0, 81, 255);
     box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-.add-friend-image{
+.vote-image{
     height: 100px;
     width: 100px;
     border-top-left-radius: 50px;
@@ -42,7 +42,7 @@
     object-fit: cover;
     margin-top: 4px;
 }
-.add-friend-about{
+.vote-about{
     height: 100%;
     margin-top: 20px;
     display: flex;
@@ -50,86 +50,104 @@
     align-items: start;
     
 }
-.add-friend-name{
+.vote-name{
     margin: 0;
     font-size: 20px;
     font-weight: bold;
     margin-left: 20px;
     color: white;
 }
-.add-friend-description{
+.vote-description{
     margin-top: 5px;    
     font-size: 15px;
     font-weight: 500;
     margin-left: 20px;
     color: white;
 }
+.votes-total{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    background-color: rgb(59, 121, 255);
+    padding: 20px 30px;
+    border-radius: 50%;
+    color: white;
+}
 
 @media (max-width: 1170px){
-    .add-friend-description{
+    .vote-description{
         font-size: 10px;
     }
-    .add-friends{
+    .votes{
         width: 25%;
     }
-    .add-friend-name{
+    .vote-name{
         font-size: 15px;
     }
 }
 @media (max-width: 990px){
-    .add-friend-name{
+    .vote-name{
         display: none;
     }
-    .add-friend-description{
+    .vote-description{
         display: none;
     }
-    .add-friend-profile{
+    .vote-profile{
         background-color: transparent;
     }
-    .add-friend-profile:hover{
+    .vote-profile:hover{
         background-color: transparent;
         box-shadow: none;
     }
-    .add-friend-image{
+    .vote-image{
         border-radius: 50%;
     }
-    .add-friends{
+    .votes{
         width: 15%;
     }
-    .add-friends-title{
+    .votes-title{
         font-size: 20px;
         padding: 0 10px 0 10px;
     }
 }
 @media (max-width: 800px){
-    .add-friends{
+    .votes{
         width: 10%;
     }
-    .add-friends-title{
+    .votes-title{
         font-size: 15px;
+        margin-bottom: 10px;
     }
-    .add-friend-image{
+    .vote-image{
         height: 60px;
         width: 60px;
     }
-    .add-friend-profile{
+    .vote-profile{
         margin-bottom: 0px;
+    }
+    .votes-total{
+        font-size: 30px;
+        padding: 10px 20px;
+        margin-top: 10px;
     }
 }
 @media (max-width: 715px){
-    .add-friends{
+    .votes{
         width: 0%;
     }
-    .add-friends-title{
+    .votes-title{
         display: none;
     }
-    .add-friend-image{
+    .vote-image{
         height: 60px;
         width: 60px;
         display: none;
     }
-    .add-friend-profile{
+    .vote-profile{
         margin-bottom: 0px;
         
+    }
+    .votes-total{
+        display: none;
     }
 }
