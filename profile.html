@@ -4,8 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>m_gerber</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/profile/profile.css">
+    <link rel="stylesheet" href="styles/profile/profileHeader.css">
 </head>
 <body>
-    
+    <nav class="navigation-bar">
+        <div class="title">
+            <h1 onclick="
+                window.location.href='index.html'
+                " class="auto-show-big">AUTOSHOW</h1>
+            <div class="auto-show-small">
+                <p class="auto-show-small-text">AUTO</p>
+                <p class="auto-show-small-text">SHOW</p>
+            </div>
+        </div>
+        <div class="logo-button home" onclick="
+            window.location.href='index.html';
+        ">
+            <img class='logo-image' src="images/logos/home.png" alt="Home">
+            <p class="logo-name">Home</p>
+        </div>
+        <div class="logo-button search">
+            <img class='logo-image' src="images/logos/search.png" alt="search">
+            <p class="logo-name">Search</p>
+        </div>
+        <div class="logo-button carshow" onclick="
+            window.location.href='carshow.html';
+        ">
+            <img class='logo-image' src="images/logos/carshow.png" alt="carshow">
+            <p class="logo-name">Carshow</p>
+        </div>
+        <div class="logo-button groups" onclick="
+            window.location.href='groups.html';
+        ">
+            <img class='logo-image' src="images/logos/groups.png" alt="groups">
+            <p class="logo-name">Groups</p>
+        </div>
+        <div class="logo-button groups" onclick="
+            window.location.href='shopTalk.html';
+        ">
+            <img class='logo-image' src="images/logos/thread.png" alt="Shop Talk">
+            <p class="logo-name">Shop Talk</p>
+        </div>
+        <div class="logo-button groups">
+            <img class='logo-image' src="images/logos/notifications.png" alt="notifications">
+            <p class="logo-name">Notifications</p>
+        </div>
+
+        <div class="button-container">
+            <button class="create-button">Create</button>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-title">Profile</div> 
+        <div class="profile">
+            <img class="profile-image" src="images/profiles/m_gerber.jpg" onclick="
+            window.location.href='profile.html';
+            ">
+        </div>
+    </header>
+    <div class="profile-container">
+        <div class="profile-images">
+            <img class="profile-banner" src="images/prototypePosts/post3.jpg" alt="profile banner">
+            <img class="profile-picture" src="images/profiles/m_gerber.jpg" alt="profile picture">
+        </div>
+        <div class="profile-info">
+            <div class="profile-user">
+                <p class="profile-name">Michael Gerber</p>
+                <p class="profile-username">@m_gerber</p>
+            </div>
+            <div class="profile-stats">
+                <div class="profile-stat">
+                    <p class="profile-stat-number"><strong>3</strong></p>
+                    <p>Posts</p>
+                </div>
+                <div class="profile-stat">
+                    <p class="profile-stat-number"><strong>1,024</strong></p>
+                    <p>Followers</p>
+                </div>
+                <div class="profile-stat">
+                    <p class="profile-stat-number"><strong>650</strong></p>
+                    <p>Following</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-bottom">
+            <div class="profile-posts">
+                <p>Posts</p>
+                <div class="posts-grid">
+                    <div class="post">
+                        <img src="images/prototypePosts/post3.jpg" alt="post1">
+                    </div>
+                    <div class="post">
+                        <img src="images/prototypePosts/post4.jpg" alt="post1">
+                    </div>
+                    <div class="post">
+                        <img src="images/prototypePosts/post5.jpg" alt="post1">
+                    </div>
+                    <div class="post">
+                        <img src="images/prototypePosts/post6.jpg" alt="post1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>
